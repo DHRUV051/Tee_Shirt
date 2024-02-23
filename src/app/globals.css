@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 body {
   padding: 0%;
   margin: 0%;
@@ -37,3 +40,11 @@ body {
     text-wrap: balance;
   }
 } */
+=======
+* {
+    font-family:
+    PlusJakartaSans,
+      sans-serif;
+  }  
+
+>>>>>>> 93d1b40050bdd19e455d1a3145eeb892e2adaf41
