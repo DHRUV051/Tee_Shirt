@@ -1,6 +1,4 @@
-"use client";
-
-import Header from "@/components/Header";
+import Header from "@/Components/Header";
 
 const Home = () => {
   return (
@@ -9,4 +7,5 @@ const Home = () => {
     </main>
   );
 }
+
 export default Home;
