@@ -7,7 +7,7 @@ import { IoMdPlay } from 'react-icons/io'
 
 const Container1 = () => {
   return (
-    <main className='flex small:flex-col medium:flex-col '>
+    <main className='flex small:flex-col medium:flex-col px-[150px] small:px-[30px] medium:px-[30px]'>
       <section className='w-1/2 small:w-full medium:w-full small:order-first medium:order-first order-last  flex flex-col items-center'>
         <Image src={Home1} alt='' width='auto' height='auto' className='min-w-[300px] ' />
       </section>
@@ -21,7 +21,13 @@ const Container1 = () => {
           <h1 className='text-[68px] font-bold w-11/12 small:w-full medium:w-full small:text-[28px] medium:text-[38px]'>
             Make the most of Printing
           </h1>
-          <Image src={Effect} alt='' width='auto' height='auto' className='absolute right-8 top-[80px] small:hidden medium:hidden' />
+          <Image
+            src={Effect}
+            alt=''
+            width='auto'
+            height='auto'
+            className='absolute right-8 top-[80px] small:hidden medium:hidden'
+          />
         </div>
 
         <div className='mt-[10px]'>
