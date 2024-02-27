@@ -11,7 +11,7 @@ import Image6 from '../../../public/assets/Home/absolute6.svg'
 
 const Container10 = () => {
   return (
-    <main className='small:hidden medium:hidden relative bg-gradient-to-b from-[rgb(180,121,217,40%)] via-[rgb(180,121,217,30%)] to-[rgb(180,121,217,0%)] w-full flex flex-col items-center h-[500px]'>
+    <main className='relative bg-gradient-to-b from-[rgb(180,121,217,40%)] via-[rgb(180,121,217,30%)] to-[rgb(180,121,217,0%)] w-full flex flex-col items-center h-[500px]'>
       <section className=' small:hidden medium:hidden'>
         <Image
           src={Image1}
@@ -57,11 +57,11 @@ const Container10 = () => {
         />
       </section>
 
-      <section className='text-center flex flex-col items-center pt-[100px] w-1/2'>
-        <h1 className='w-9/12 text-[48px] small:text-[28px] medium:text-[38px] font-bold'>
+      <section className='text-center flex flex-col items-center pt-[100px] w-1/2 small:w-full medium:w-full small:px-[30px] medium:px-[30px] '>
+        <h1 className='w-9/12 small:w-full medium:w-full text-[48px] small:text-[28px] medium:text-[38px] font-bold'> 
           Enjoy up your vacations in the best T-shirts
         </h1>
-        <p className='font-medium text-[18px] w-[55%] text-[rgb(126,126,126)] small:w-full medium:w-full'>
+        <p className='font-medium text-[18px] w-[55%]  text-[rgb(126,126,126)] small:w-full medium:w-full mt-[50px] small:mt-[20px] medium:mt-[30px]'>
           T-shirts that keep you moving.
         </p>
         <div className='mt-[50px] flex'>

@@ -3,8 +3,9 @@ import Link from "next/link"
 const Container11 = () => {
   return (
     <main>
-        <section className="small:flex small:flex-col small:items-center small:justify-center medium:flex medium:flex-col medium:items-center medium:justify-center mb-[50px]">
-                <ul className="px-[350px] small:px-[30px]  small:grid small:grid-cols-2 small:gap-[30px]  flex justify-between text-[28px] font-bold">
+        <section className=" small:flex small:flex-col small:items-center small:justify-center medium:flex medium:flex-col medium:items-center medium:justify-center mb-[50px]">
+
+                <ul className="px-[350px] small:px-[30px] medium:px-[30px] small:grid small:grid-cols-2 small:gap-[30px] flex justify-between text-[28px] font-bold medium:grid medium:grid-cols-2 medium:gap-[20px]">
                     <li>
                         <Link href="https://facebook.com/">Facebook</Link>
                     </li>

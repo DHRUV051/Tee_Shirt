@@ -6,14 +6,14 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className='bg-[rgb(245,245,245)] px-[150px] py-[75px] small:py-[50px] small:px-[30px] medium:px-[30px] medium:py-[80px]'>
+    <footer className='bg-[rgb(245,245,245)] px-[150px] py-[75px] small:py-[50px] small:px-[30px] medium:px-[50px] medium:py-[80px]'>
 
       <section>
-        <div className=' grid grid-cols-4 small:grid-cols-1 small:space-y-[30px] medium:space-y-[50px]'> 
+        <div className=' grid grid-cols-4 gap-[80px] small:grid-cols-1 small:space-y-[30px]   small:gap-[30px] medium:grid medium:grid-cols-2 medium:gap-[30px]'> 
 
         
-        <div className='medium:flex medium:flex-col medium:items-center small:flex small:flex-col small:items-center'>
-          <Link href='/'>
+        <div className='small:flex small:flex-col small:items-center'>
+          <Link href='/' className='cursor-pointer'>
             <Image src={Logo} alt='' width='' height='' />
           </Link>
           <h1 className='text-[rgb(126,126,126)] text-[16px] font-medium mt-[10px]'>hello@teespace.io</h1>
@@ -22,41 +22,41 @@ const Footer = () => {
           <h1 className='text-[rgb(126,126,126)] text-[16px] font-medium mt-[3px]'>San Diego</h1>
         </div>
 
-        <div className='mt-2 medium:flex medium:flex-col medium:items-center small:flex small:flex-col small:items-center'>
+        <div className='mt-2 small:flex small:flex-col small:items-center'>
           <h1 className='font-bold text-[20px]'>Information</h1>
-          <ul className='mt-[20px] text-[16px] text-[rgb(126,126,126)] space-y-[20px] small:text-center medium:text-center'>
-            <li>
+          <ul className='mt-[20px] text-[16px] text-[rgb(126,126,126)] space-y-[20px] small:text-center'>
+            <li className='cursor-pointer'>
               <Link href='/'>About us</Link>
             </li>
-            <li>
+            <li className='cursor-pointer'>
               <Link href='/blog'>Our Blog</Link>
             </li>
-            <li>
+            <li className='cursor-pointer'>
               <Link href='/teespace'>Start a Return</Link>
             </li>
-            <li>
+            <li className='cursor-pointer'>
               <Link href='/teespace'>Contact Us</Link>
             </li>
-            <li>
+            <li className='cursor-pointer'>
               <Link href='/shop'>Shipping FAQ</Link>
             </li>
           </ul>
         </div>
 
-        <div className='mt-2 medium:flex medium:flex-col medium:items-center small:flex small:flex-col small:items-center'>
+        <div className='mt-2 small:flex small:flex-col small:items-center'>
           <h1 className='font-bold text-[20px]'>Useful links</h1>
-          <ul className='mt-[20px] text-[16px] text-[rgb(126,126,126)] space-y-[20px] small:text-center medium:text-center'>
-            <li>My Account</li>
-            <li>Print Provider</li>
-            <li>Become a Partner</li>
-            <li>Custom Products</li>
-            <li>Make your own shirt</li>
+          <ul className='mt-[20px] text-[16px] text-[rgb(126,126,126)] space-y-[20px] small:text-center'>
+            <li className='cursor-pointer'>My Account</li>
+            <li className='cursor-pointer'>Print Provider</li>
+            <li className='cursor-pointer'>Become a Partner</li>
+            <li className='cursor-pointer'>Custom Products</li>
+            <li className='cursor-pointer'>Make your own shirt</li>
           </ul>
         </div>
 
-        <div className='mt-2 medium:flex medium:flex-col medium:items-center small:flex small:flex-col small:items-center'>
+        <div className='mt-2 small:flex small:flex-col small:items-center'>
           <h1 className='font-bold text-[20px]'>Newsletter</h1>
-          <p className='mt-[20px] text-[16px] text-[rgb(126,126,126)] small:text-center medium:text-center'>
+          <p className='mt-[20px] text-[16px] text-[rgb(126,126,126)] small:text-center'>
           Get the latest news, events & more delivered to your inbox.
           </p>
           <div className='bg-[rgb(255,255,255)] mt-[20px] py-[10px] px-[16px] flex'>
