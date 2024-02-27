@@ -1,7 +1,7 @@
 import {Plus_Jakarta_Sans} from "next/font/google";
 import "./globals.css";
 import Header from "@/Components/Header(Dhruv)/Header";
-import Footer from "@/Components/Footer(Dhruv)/Footer";
+import Footer from "@/Components/Footer";
 
 const PlusJakartaSans = Plus_Jakarta_Sans({ 
   subsets: ["latin"],
