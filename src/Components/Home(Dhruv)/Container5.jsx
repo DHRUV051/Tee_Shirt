@@ -6,7 +6,7 @@ import Tshirt4 from '../../../public/assets/Home/tshirt4.svg'
 
 const Container5 = () => {
   return (
-    <main className='px-[150px] py-[70px] small:px-[30px] small:py-[30px] medium:px-[30px] medium:py-[30px] '>
+    <main className='px-[150px]  small:px-[30px]  medium:px-[30px]  '>
       <section className=' text-center flex flex-col items-center'>
         <h1 className='text-[40px] small:text-[28px] medium:text-[28px] font-bold'>Our picks for you</h1>
         <p className='font-medium text-[18px] w-6/12 text-[rgb(126,126,126)] small:w-full medium:w-full'>
@@ -16,7 +16,7 @@ const Container5 = () => {
       </section>
 
       <section className='flex flex-col items-center justify-center  mt-[100px] '>
-        <div className='grid grid-cols-4 gap-[50px]'>
+        <div className='grid grid-cols-4 gap-[50px] small:grid-cols-1 medium:grid-cols-2'>
 
         {/* Product1 */}
           <div className='relative'>

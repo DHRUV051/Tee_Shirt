@@ -3,7 +3,8 @@ import Container2 from '@/Components/Home(Dhruv)/Container2'
 import Container3 from '@/Components/Home(Dhruv)/Container3'
 import Container4 from '@/Components/Home(Dhruv)/Container4'
 import Container5 from '@/Components/Home(Dhruv)/Container5'
-
+import Container6 from '@/Components/Home(Dhruv)/Container6'
+import Container7 from '@/Components/Home(Dhruv)/Container7'
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <Container3 />
       <Container4 />
       <Container5 />
+      <Container6 />
+      <Container7 />
     </main>
   )
 }

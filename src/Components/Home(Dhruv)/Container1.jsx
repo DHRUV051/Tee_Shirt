@@ -44,7 +44,6 @@ const Container1 = () => {
               <Image src={Arrow} alt='' width='auto' height='auto' className='ml-2' />
             </Link>
           </button>
-
           <button>
             <Link href='/shop' className='flex text-[16px] font-bold'>
               How We Work

@@ -15,7 +15,7 @@ module.exports = {
       screens: {
         "small": {"max" : "520px"},
         "medium": {"min":"521px" , "max": "1000px"},
-        
+        "menu" : {"max": "600px"}
       },
     },
   },
