@@ -5,6 +5,8 @@ import Container4 from '@/Components/Home(Dhruv)/Container4'
 import Container5 from '@/Components/Home(Dhruv)/Container5'
 import Container6 from '@/Components/Home(Dhruv)/Container6'
 import Container7 from '@/Components/Home(Dhruv)/Container7'
+import Container8 from '@/Components/Home(Dhruv)/Container8'
+import Container9 from '@/Components/Home(Dhruv)/Container9'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <Container5 />
       <Container6 />
       <Container7 />
+      <Container8 />
+      <Container9 />
     </main>
   )
 }

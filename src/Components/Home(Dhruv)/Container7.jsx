@@ -16,7 +16,7 @@ const Container7 = () => {
         <div className='child child--absolute'></div>
       </section>
 
-      <section className='bg-[rgb(245,245,245)] px-[150px]  small:px-[30px] small:py-[30px] medium:px-[30px] medium:py-[30px] medium:space-y-[50px] small:space-y-[50px] flex small:flex-col medium:flex-col'>
+      <section className='bg-[rgb(245,245,245)] px-[150px] py-[70px] small:px-[30px] small:py-[30px] medium:px-[30px] medium:py-[30px] medium:space-y-[50px] small:space-y-[50px] flex small:flex-col medium:flex-col'>
         <div className='w-[40%] small:w-full medium:w-full small:text-center medium:text-center small:flex medium:flex flex-col small:items-center medium:items-center'>
           <h1 className='font-bold text-[48px] w-[80%] small:w-full medium:w-full small:text-[28px] medium:text-[32px]'>
             Why customize products with TeeSpace?
