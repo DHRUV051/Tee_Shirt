@@ -11,8 +11,8 @@ import Image6 from '../../../public/assets/Home/absolute6.svg'
 
 const Container10 = () => {
   return (
-    <main className='small:hidden medium:hidden relative bg-gradient-to-b from-[rgb(180,121,217,40%)] via-[rgb(180,121,217,30%)] to-[rgb(180,121,217,0%)] w-full flex flex-col items-center'>
-      <section className='small:hidden medium:hidden'>
+    <main className='small:hidden medium:hidden relative bg-gradient-to-b from-[rgb(180,121,217,40%)] via-[rgb(180,121,217,30%)] to-[rgb(180,121,217,0%)] w-full flex flex-col items-center h-[500px]'>
+      <section className=' small:hidden medium:hidden'>
         <Image
           src={Image1}
           alt=''
@@ -57,7 +57,7 @@ const Container10 = () => {
         />
       </section>
 
-      <section className='relative text-center flex flex-col items-center pt-[100px] w-1/2'>
+      <section className='text-center flex flex-col items-center pt-[100px] w-1/2'>
         <h1 className='w-9/12 text-[48px] small:text-[28px] medium:text-[38px] font-bold'>
           Enjoy up your vacations in the best T-shirts
         </h1>
