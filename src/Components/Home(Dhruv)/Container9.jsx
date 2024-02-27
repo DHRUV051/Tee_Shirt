@@ -5,7 +5,7 @@ import User3 from '../../../public/assets/Home/test3.svg'
 
 const Container9 = () => {
   return (
-    <main className='px-[150px]  small:px-[30px]  medium:px-[30px] bg-[url("/assets/Home/BgDesign.svg")] bg-cover bg-no-repeat w-full h-[500px]'>
+    <main className='px-[150px]  small:px-[30px]  medium:px-[30px] bg-[url("/assets/Home/BgDesign.svg")] bg-cover bg-no-repeat w-full h-[500px] '>
       <section className=' text-center flex flex-col items-center'>
         <h1 className='text-[48px] small:text-[28px] medium:text-[38px] font-bold'>What People Are Saying</h1>
         <p className='font-medium text-[18px] w-[55%] text-[rgb(126,126,126)] small:w-full medium:w-full'>
@@ -57,7 +57,7 @@ const Container9 = () => {
             </p>
           </div>
         </div>
-        <div className='mt-[50px] flex space-x-2'>
+        <div className='my-[50px] flex space-x-2'>
           <div>
             <div className='border border-black rounded-full '>
               <div className=' rounded-full p-[4px] w-fit'></div>

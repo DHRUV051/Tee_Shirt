@@ -15,8 +15,8 @@ const Container8 = () => {
       </section>
 
       <section className='mt-[50px] mb-[100px] flex gap-[50px] small:flex-col medium:flex-col'>
-        <div className='w-1/2 small:w-full medium:w-full flex space-x-[40px]'>
-          <Image src={Acticel1} alt='' width='' height='' className='w-1/2 rounded-[12px]' />
+        <div className='w-1/2 small:w-full medium:w-full flex space-x-[40px] small:flex-col small:space-x-0 medium:space-x-0 medium:flex-col'>
+          <Image src={Acticel1} alt='' width='' height='' className='w-1/2 rounded-[12px] small:w-full' />
           <div className='mt-[15px]'>
             <div className='bg-[rgb(245,245,245)] text-[rgb(46,187,119)] font-semibold text-[14px] px-3 py-1 rounded-[40px] w-fit'>
               <h1>Design Serivce</h1>
@@ -34,8 +34,8 @@ const Container8 = () => {
           </div>
         </div>
 
-        <div className='w-1/2 small:w-full medium:w-full  flex space-x-[40px]'>
-          <Image src={Acticel2} alt='' width='' height='' className='w-1/2 rounded-[12px]' />
+        <div className='w-1/2 small:w-full medium:w-full  flex space-x-[40px] small:flex-col small:space-x-0 medium:space-x-0 medium:flex-col'>
+          <Image src={Acticel2} alt='' width='' height='' className='w-1/2 rounded-[12px] small:w-full medium:w-full' />
           <div className='mt-[15px]'>
             <div className='flex space-x-[15px]'>
               <div className='bg-[rgb(245,245,245)] text-[rgb(46,187,119)] font-semibold text-[14px] px-3 py-1 rounded-[40px] w-fit'>
