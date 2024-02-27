@@ -1,6 +1,6 @@
 'use client';
 
-import Navbar from "./Navbar";
+import Navbar from "./Navbar"
 import Poster from "./Poster";
 
 const Header = () => {

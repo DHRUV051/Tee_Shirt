@@ -67,14 +67,14 @@ const Container10 = () => {
         <div className='mt-[50px] flex'>
           <button className='bg-[rgb(46,187,119)] px-4 py-2 rounded-[12px] '>
             <Link href='/shop' className='text-white text-center flex'>
-              <h1>Shop Now</h1>
+              <h1 className='font-bold text-[15px]'>Shop Now</h1>
               <Image src={Arrow} alt='' width='auto' height='auto' className='ml-2' />
             </Link>
           </button>
 
           <button className='px-4 py-2 rounded-[12px] text-center '>
             <Link href='/contact' className='flex'>
-              <h1>Contact Us</h1>
+              <h1 className='font-bold text-[15px]'>Contact Us</h1>
               <Image src={BlackArrow} alt='' width='auto' height='auto' className='ml-2' />
             </Link>
           </button>
