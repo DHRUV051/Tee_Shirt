@@ -8,6 +8,7 @@ import { IoMdPlay } from 'react-icons/io'
 const Container1 = () => {
   return (
     <main className='flex small:flex-col medium:flex-col px-[150px] small:px-[30px] medium:px-[30px]'>
+      
       <section className='w-1/2 small:w-full medium:w-full small:order-first medium:order-first order-last  flex flex-col items-center'>
         <Image src={Home1} alt='' width='auto' height='auto' className='min-w-[300px] ' />
       </section>
