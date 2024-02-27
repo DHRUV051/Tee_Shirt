@@ -2,7 +2,7 @@
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaTwitter, FaFacebookF, FaInstagram, FaYoutube, FaRegStar } from "react-icons/fa";
-import { HiOutlineShoppingBag } from "react-icons/hi"; // Make sure this import is correct, might be from "react-icons/hi2" as per your initial message
+import { HiOutlineShoppingBag } from "react-icons/hi"; 
 import { IoSearchOutline } from "react-icons/io5";
 import Link from "next/link";
 import Image from "next/image";
@@ -50,7 +50,7 @@ const Header = () => {
           <AiOutlineClose
             onClick={() => setToggle(!toggle)}
             size={30}
-            className="md:hidden block z-50 text-black"
+            className="md:hidden block z-50 text-white"
           />
         ) : (
           <HiMenuAlt3
@@ -63,16 +63,16 @@ const Header = () => {
         <div className="flex items-center text-gray-600 border rounded-xl w-[200px] h-[40px]">
           <IoSearchOutline className="text-lg h-[20px] w-[20px] ml-2 mr-2"/>Search...
         </div>
-        <div className="flex items-center gap-x-5">
+        <div className="flex items-center ml-6 gap-x-5">
           <FaRegStar/>
           <HiOutlineShoppingBag/>
         </div>
       </div>
       <div
-        className={`duration-300 pt-16 md:hidden flex flex-col w-[70%] h-screen fixed bg-black/60 text-white top-[0px] ${
+        className={`duration-300 pt-16 md:hidden flex flex-col w-[70%] h-screen fixed bg-black/90 text-white top-[0px] ${
           toggle ? "left-0" : "left-[-100%]"
         }`}
-        style={{ zIndex: "1", fontFamily: "lexend" }}
+        style={{ zIndex: "1"}}
       >
       {toggle && (
         <div className="md:hidden">
