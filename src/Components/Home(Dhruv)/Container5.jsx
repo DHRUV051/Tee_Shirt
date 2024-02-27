@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Tshirt1 from '../../../public/assets/Home/tshirt1.svg'
-import Tshirt2 from '../../../public/assets/Home/tshirt2.svg'
-import Tshirt3 from '../../../public/assets/Home/tshirt3.svg'
-import Tshirt4 from '../../../public/assets/Home/tshirt4.svg'
+import Tshirt1 from '../../../public/assets/Home(DHRUV)/tshirt1.svg'
+import Tshirt2 from '../../../public/assets/Home(DHRUV)/tshirt2.svg'
+import Tshirt3 from '../../../public/assets/Home(DHRUV)/tshirt3.svg'
+import Tshirt4 from '../../../public/assets/Home(DHRUV)/tshirt4.svg'
 
 const Container5 = () => {
   return (

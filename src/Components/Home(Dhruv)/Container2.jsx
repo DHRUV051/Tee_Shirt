@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Spotify from "../../../public/assets/Home/spotify.svg";
-import Feedly from "../../../public/assets/Home/feedly.svg";
-import Lattice from "../../../public/assets/Home/lattice.svg";
-import Hopin from "../../../public/assets/Home/hopin.svg";
-import Upwork from "../../../public/assets/Home/upwork.svg";
+import Spotify from "../../../public/assets/Home(DHRUV)/spotify.svg";
+import Feedly from "../../../public/assets/Home(DHRUV)/feedly.svg";
+import Lattice from "../../../public/assets/Home(DHRUV)/lattice.svg";
+import Hopin from "../../../public/assets/Home(DHRUV)/hopin.svg";
+import Upwork from "../../../public/assets/Home(DHRUV)/upwork.svg";
 
 const Container2 = () => {
   return (

@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Design from '../../../public/assets/Home/Designtshirt.svg'
-import Art from '../../../public/assets/Home/ArtTshirt.svg'
-import Product from '../../../public/assets/Home/Product.svg'
+import Design from '../../../public/assets/Home(DHRUV)/Designtshirt.svg'
+import Art from '../../../public/assets/Home(DHRUV)/ArtTshirt.svg'
+import Product from '../../../public/assets/Home(DHRUV)/Product.svg'
 
 const Container3 = () => {
   return (

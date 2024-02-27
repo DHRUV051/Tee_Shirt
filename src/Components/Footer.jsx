@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Logo from '../../../public/logo.svg'
-import Arrow from "../../../public/assets/Home/BlackArrow.svg";
-import Payment from "../../../public/assets/Home/paymentmethod.svg"
+import Logo from '../../public/logo.svg'
+import Arrow from "../../public/assets/Home(DHRUV)/BlackArrow.svg";
+import Payment from "../../public/assets/Home(DHRUV)/paymentmethod.svg"
 import Link from 'next/link'
 
 const Footer = () => {

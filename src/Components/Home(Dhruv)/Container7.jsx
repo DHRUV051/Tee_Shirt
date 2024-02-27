@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import Arrow from '../../../public/assets/Home/leftarrow.svg'
-import Dollor from '../../../public/assets/Home/dollor.svg'
-import Fast from '../../../public/assets/Home/fast.svg'
-import Order from '../../../public/assets/Home/order.svg'
-import Payment from '../../../public/assets/Home/payment.svg'
-import Print from '../../../public/assets/Home/print.svg'
-import Settings from '../../../public/assets/Home/settings.svg'
+import Arrow from '../../../public/assets/Home(DHRUV)/leftarrow.svg'
+import Dollor from '../../../public/assets/Home(DHRUV)/dollor.svg'
+import Fast from '../../../public/assets/Home(DHRUV)/fast.svg'
+import Order from '../../../public/assets/Home(DHRUV)/order.svg'
+import Payment from '../../../public/assets/Home(DHRUV)/payment.svg'
+import Print from '../../../public/assets/Home(DHRUV)/print.svg'
+import Settings from '../../../public/assets/Home(DHRUV)/settings.svg'
 
 
 const Container7 = () => {

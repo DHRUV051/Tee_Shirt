@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Banner from '../../../public/assets/Home/banner.svg'
-import Tab from '../../../public/assets/Home/tab.svg'
+import Banner from '../../../public/assets/Home(DHRUV)/banner.svg'
+import Tab from '../../../public/assets/Home(DHRUV)/tab.svg'
 
 const Container4 = () => {
   return (

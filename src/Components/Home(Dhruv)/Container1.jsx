@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Home1 from '../../../public/assets/Home/home1.svg'
-import Effect from '../../../public/assets/Home/texteffect.svg'
-import Arrow from '../../../public/assets/Home/leftarrow.svg'
+import Home1 from '../../../public/assets/Home(DHRUV)/home1.svg'
+import Effect from '../../../public/assets/Home(DHRUV)/texteffect.svg'
+import Arrow from '../../../public/assets/Home(DHRUV)/leftarrow.svg'
 import { IoMdPlay } from 'react-icons/io'
 
 const Container1 = () => {

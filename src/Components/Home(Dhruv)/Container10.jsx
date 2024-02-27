@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Arrow from '../../../public/assets/Home/leftarrow.svg'
-import BlackArrow from '../../../public/assets/Home/BlackArrow.svg'
-import Image1 from '../../../public/assets/Home/absolute1.svg'
-import Image2 from '../../../public/assets/Home/absolute2.svg'
-import Image3 from '../../../public/assets/Home/absolute3.svg'
-import Image4 from '../../../public/assets/Home/absolute4.svg'
-import Image5 from '../../../public/assets/Home/absolute5.svg'
-import Image6 from '../../../public/assets/Home/absolute6.svg'
+import Arrow from '../../../public/assets/Home(DHRUV)/leftarrow.svg'
+import BlackArrow from '../../../public/assets/Home(DHRUV)/BlackArrow.svg'
+import Image1 from '../../../public/assets/Home(DHRUV)/absolute1.svg'
+import Image2 from '../../../public/assets/Home(DHRUV)/absolute2.svg'
+import Image3 from '../../../public/assets/Home(DHRUV)/absolute3.svg'
+import Image4 from '../../../public/assets/Home(DHRUV)/absolute4.svg'
+import Image5 from '../../../public/assets/Home(DHRUV)/absolute5.svg'
+import Image6 from '../../../public/assets/Home(DHRUV)/absolute6.svg'
 
 const Container10 = () => {
   return (

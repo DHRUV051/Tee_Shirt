@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Acticel1 from '../../../public/assets/Home/Acticel1.svg'
-import Acticel2 from '../../../public/assets/Home/Acticel2.svg'
-import User from '../../../public/assets/Home/User.svg'
+import Acticel1 from '../../../public/assets/Home(DHRUV)/Acticel1.svg'
+import Acticel2 from '../../../public/assets/Home(DHRUV)/Acticel2.svg'
+import User from '../../../public/assets/Home(DHRUV)/User.svg'
 
 const Container8 = () => {
   return (

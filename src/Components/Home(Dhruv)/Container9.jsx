@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import User1 from '../../../public/assets/Home/test1.svg'
-import User2 from '../../../public/assets/Home/test2.svg'
-import User3 from '../../../public/assets/Home/test3.svg'
+import User1 from '../../../public/assets/Home(DHRUV)/test1.svg'
+import User2 from '../../../public/assets/Home(DHRUV)/test2.svg'
+import User3 from '../../../public/assets/Home(DHRUV)/test3.svg'
 
 const Container9 = () => {
   return (
