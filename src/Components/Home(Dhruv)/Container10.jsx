@@ -11,7 +11,7 @@ import Image6 from '../../../public/assets/Home(DHRUV)/absolute6.svg'
 
 const Container10 = () => {
   return (
-    <main className='relative bg-gradient-to-b from-[rgb(180,121,217,40%)] via-[rgb(180,121,217,30%)] to-[rgb(180,121,217,0%)] w-full flex flex-col items-center h-[500px]'>
+    <main className='relative bg-[rgb(180,121,217,15%)] bg-gradient-to-b from-[rgb(180,121,217,40%)] via-[rgb(180,121,217,30%)] to-[rgb(180,121,217,0%)] w-full flex flex-col items-center h-[550px]'>
       <section className=' small:hidden medium:hidden'>
         <Image
           src={Image1}
@@ -53,7 +53,7 @@ const Container10 = () => {
           alt=''
           width=''
           height=''
-          className='absolute top-[350px] right-[300px] shadow-2xl rounded-tr-[12px] rounded-tl-[12px]'
+          className='absolute top-[370px] right-[300px] shadow-2xl rounded-tr-[12px] rounded-tl-[12px]'
         />
       </section>
 
