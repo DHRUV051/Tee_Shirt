@@ -53,7 +53,7 @@ const Container10 = () => {
           alt=''
           width=''
           height=''
-          className='absolute top-[370px] right-[300px] shadow-2xl rounded-tr-[12px] rounded-tl-[12px]'
+          className='absolute top-[370px] right-[300px]  rounded-tr-[12px] rounded-tl-[12px]'
         />
       </section>
 

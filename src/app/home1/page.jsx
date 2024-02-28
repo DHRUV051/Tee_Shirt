@@ -12,7 +12,7 @@ import Container9 from '@/Components/Home(Dhruv)/Container9'
 
 const Home = () => {
   return (
-    <main className='space-y-[50px]  mb-[50px] '>
+    <main className='space-y-[50px]'>
       <Container1 />
       <Container2 />
       <Container3 />
