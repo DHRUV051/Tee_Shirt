@@ -1,81 +1,77 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Arrow from '../../../public/assets/Home(DHRUV)/leftarrow.svg'
-import Dollor from '../../../public/assets/Home(DHRUV)/dollor.svg'
-import Fast from '../../../public/assets/Home(DHRUV)/fast.svg'
-import Order from '../../../public/assets/Home(DHRUV)/order.svg'
-import Payment from '../../../public/assets/Home(DHRUV)/payment.svg'
-import Print from '../../../public/assets/Home(DHRUV)/print.svg'
-import Settings from '../../../public/assets/Home(DHRUV)/settings.svg'
+import TV from '../../../public/assets/Services/tv.svg'
+import Tshirt from '../../../public/assets/Services/tshirt.svg'
+import Copy from '../../../public/assets/Services/copy.svg'
+import Brand from '../../../public/assets/Services/brand.svg'
+import Online from '../../../public/assets/Services/Online.svg'
+import Sign from '../../../public/assets/Services/sign.svg'
 
-
-
-const Container7 = () => {
+const Container6 = () => {
   return (
-    <main className='relative'>
-      <section className=' z-10  parent'>
-        <div className=' child text-[rgb(245,245,245)]'>1</div>
-        <div className='child child--absolute'></div>
-      </section>
-
+    <main>
       <section className='bg-[rgb(245,245,245)] px-[150px] py-[70px] small:px-[30px] small:py-[30px] medium:px-[30px] medium:py-[30px] medium:space-y-[50px] small:space-y-[50px] flex small:flex-col medium:flex-col'>
         <div className='w-[40%] small:w-full medium:w-full small:text-center medium:text-center small:flex medium:flex flex-col small:items-center medium:items-center'>
           <h1 className='font-bold text-[48px] w-[80%] small:w-full medium:w-full small:text-[28px] medium:text-[32px]'>
-            Why customize products with TeeSpace?
+            Print shirts for yourself or your online business
           </h1>
           <p className='text-[18px] font-medium text-[rgb(126,126,126)] w-[56%] small:w-full medium:w-full small:text-[14px] medium:text-[16px]'>
             Lorem ipsum det, cowec tetur duis necgi det, consec t eturlagix adipiscing eliet duis necgi det, con
           </p>
-          <button className='mt-[20px] bg-[rgb(46,187,119)] px-4 py-2 rounded-[12px] flex text-white'>
-            View All Features
-            <Image src={Arrow} alt='' width='auto' height='auto' className='ml-2 mt-[7px]' />
-          </button>
+          <Link href='/shop' className='cursor-pointer'>
+            <button className='mt-[20px] bg-[rgb(46,187,119)] px-4 py-2 rounded-[12px] flex text-white'>
+              Shop Now
+              <Image src={Arrow} alt='' width='auto' height='auto' className='ml-2 mt-[7px]' />
+            </button>
+          </Link>
         </div>
 
         <div className='w-[60%] small:w-full medium:w-full'>
           <div className='grid grid-cols-3 medium:grid-cols-2 small:grid-cols-1 gap-[20px]'>
             <div className='bg-[rgb(255,255,255)] rounded-[12px] shadow-md px-[30px] py-[20px]  small:w-full medium:w-full min-h-[290px] space-y-[10px]'>
-              <Image src={Dollor} alt='' width='' height='' />
-              <h1 className='text-[20px] font-bold'>NO Die & plate charges</h1>
+              <Image src={Tshirt} alt='' width='' height='' />
+              <h1 className='text-[20px] font-bold'>Printing Services</h1>
               <p className='text-[15px] font-medium text-[rgb(126,126,126)]'>
                 Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con
               </p>
             </div>
 
             <div className='bg-[rgb(255,255,255)] rounded-[12px] shadow-md px-[30px] py-[20px]  small:w-full medium:w-full min-h-[290px] space-y-[10px]'>
-              <Image src={Print} alt='' width='' height='' />
-              <h1 className='text-[20px] font-bold'>High quality offset printing</h1>
+              <Image src={Copy} alt='' width='' height='' />
+              <h1 className='text-[20px] font-bold'>Copying Services</h1>
               <p className='text-[15px] font-medium text-[rgb(126,126,126)]'>
                 Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con
               </p>
             </div>
 
             <div className='bg-[rgb(255,255,255)] rounded-[12px] shadow-md px-[30px] py-[20px]  small:w-full medium:w-full min-h-[290px] space-y-[10px]'>
-              <Image src={Payment} alt='' width='' height='' />
-              <h1 className='text-[20px] font-bold'>Secure payment</h1>
+              <Image src={Sign} alt='' width='' height='' />
+              <h1 className='text-[20px] font-bold'>Digital Scanning</h1>
               <p className='text-[15px] font-medium text-[rgb(126,126,126)]'>
                 Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con
               </p>
             </div>
 
             <div className='bg-[rgb(255,255,255)] rounded-[12px] shadow-md px-[30px] py-[20px]  small:w-full medium:w-full min-h-[290px] space-y-[10px]'>
-              <Image src={Settings} alt='' width='' height='' />
-              <h1 className='text-[20px] font-bold'>Custom size & style</h1>
+              <Image src={Brand} alt='' width='' height='' />
+              <h1 className='text-[20px] font-bold '>Branding & white label printing</h1>
               <p className='text-[15px] font-medium text-[rgb(126,126,126)]'>
                 Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con
               </p>
             </div>
 
             <div className='bg-[rgb(255,255,255)] rounded-[12px] shadow-md px-[30px] py-[20px]  small:w-full medium:w-full min-h-[290px] space-y-[10px]'>
-              <Image src={Fast} alt='' width='' height='' />
-              <h1 className='text-[20px] font-bold'>Fast & free delivery</h1>
+              <Image src={TV} alt='' width='' height='' />
+              <h1 className='text-[20px] font-bold'>Design Services</h1>
               <p className='text-[15px] font-medium text-[rgb(126,126,126)]'>
                 Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con
               </p>
             </div>
 
             <div className='bg-[rgb(255,255,255)] rounded-[12px] shadow-md px-[30px] py-[20px]  small:w-full medium:w-full min-h-[290px] space-y-[10px]'>
-              <Image src={Order} alt='' width='' height='' />
-              <h1 className='text-[20px] font-bold'>Low minimum order quantity</h1>
+              <Image src={Online} alt='' width='' height='' />
+              <h1 className='text-[20px] font-bold'>POD for online stores</h1>
               <p className='text-[15px] font-medium text-[rgb(126,126,126)]'>
                 Lorem ipsum det, cowec tetur duis necgi det, consect eturlagix adipiscing eliet duis necgi det, con
               </p>
@@ -98,4 +94,4 @@ const Container7 = () => {
   )
 }
 
-export default Container7
+export default Container6
