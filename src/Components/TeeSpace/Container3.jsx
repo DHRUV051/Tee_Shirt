@@ -4,7 +4,7 @@ import Member1 from '../../../public/assets/Teespace/member1.svg'
 import MemberData from '@/utils/Member'
 const Container3 = () => {
   return (
-    <main className='bg-[rgb(248,248,248)] pb-[100px] px-[150px] medium:p-[50px] small:p-[30px] flex flex-col items-center'>
+    <main className='bg-[rgb(248,248,248)] py-[100px] px-[150px] medium:p-[50px] small:p-[30px] flex flex-col items-center'>
       <section className='flex space-x-2'>
         <Image src={Person} alt='' width='' height='' />
         <h1 className='font-bold text-[14px]'>OUR TEAM</h1>
