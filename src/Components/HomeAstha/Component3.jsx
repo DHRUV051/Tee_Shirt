@@ -15,8 +15,8 @@ import Item4 from     "../../../public/assets/Component3/Item4.svg";
 const Component3 = () => {
   return (
     <>
-    <div className=' gap-3 px-16 py-16'>
-      <ul className=' lg:flex md:flex-row sm:flex-col gap-4 lg:text-xl sm:text-base md:text-lg sm:text-center md:text-center lg:text-left font-bold'>
+    <div className=' gap-3 px-16 py-12'>
+      <ul className=' lg:flex md:flex sm:flex gap-4 lg:text-xl sm:text-sm md:text-lg sm:text-center md:text-center lg:text-left font-bold'>
         <li>New Arrivals</li>
         <li className=' text-[#9B9B9B]'>BestSeller</li>
         <li className=' text-[#9B9B9B]'>Sale</li>
@@ -25,7 +25,7 @@ const Component3 = () => {
 
 
 
-    <div className='lg:flex lg:flex-row lg:grid-cols-[1fr,37%,1fr] sm:flex-col md:flex-row px-16 py-8 gap-5'>
+    <div className='grid lg:flex lg:flex-row lg:grid-cols-[1fr,37%,1fr] md:grid-cols-2 sm:flex-col md:flex-row px-16 py-8 gap-5'>
             <div className='w-fit mx-auto self-end'>
                 <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto'
                 src={top1}
@@ -73,18 +73,19 @@ const Component3 = () => {
 
         </div>
 
-        <div className=' gap-3 px-16 py-6 lg:flex justify-between'>
+        <div className=' gap-3 px-16 py-6 lg:flex lg:justify-between md:flex md:justify-between sm:flex sm:justify-between'>
       <ul className=' lg:flex sm:flex-col gap-4 lg:text-xl sm:text-base md:text-lg sm:text-center md:text-center font-bold'>
         <li className=' text-[#000000]'>Hot under $39</li>
       </ul>
-      <button className='bg-white xl:h-10 md:h-8 sm:h-8 text-[#000000] border-[#EEEEEE] border-2 px-2 py-2 md:rounded-md sm:rounded-lg xl:rounded-xl lg:flex sm:flex-col sm:text-base md:text-base sm:text-center md:text-center hover: '>View All → </button>
+      <button className='bg-white xl:h-10 md:h-8 sm:h-8 text-[#000000] border-[#EEEEEE] border-2 px-2 md:py-1 sm:py-1 py-2 md:rounded-md 
+      sm:rounded-lg xl:rounded-xl lg:flex sm:flex-col sm:text-base md:text-base sm:text-center md:text-center hover: '>View All → </button>
           
     </div>
 
 
     {/* 2nd time image */}
 
-    <div className='lg:flex lg:flex-row lg:grid-cols-[1fr,37%,1fr] sm:flex-col md:flex-row px-16 py-8 gap-5'>
+    <div className=' grid lg:flex lg:flex-row lg:grid-cols-[1fr,37%,1fr] md:grid-cols-2 sm:flex-col md:flex-row px-16 py-8 gap-5'>
             <div className='w-fit mx-auto self-end'>
                 <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto'
                 src={Item1}

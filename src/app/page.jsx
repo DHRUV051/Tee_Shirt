@@ -12,7 +12,7 @@ const Home = () => {
     <main>
            <Header/>
            <Component1 />
-           <Component2 />
+            <Component2 />
            <Component3 />
            <Component4 />
            <Component5 />

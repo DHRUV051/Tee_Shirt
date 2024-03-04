@@ -12,12 +12,13 @@ export const Component2 = () => {
   return (
     <>
 
-    <div className='container px-6 py-6'>
+    <div className='container px-16 py-6'>
 
-        <h2 className='lg:text-2xl md:text-base sm:text-sm sm:text-center md:text-center lg:text-left font-bold pl-8 '>Shopping by Categories</h2>
+        <h2 className='lg:text-2xl md:text-base sm:text-base sm:text-center md:text-center lg:text-center font-bold ml-4 '>Shopping by Categories</h2>
     
         
-        <div className='lg:flex lg:flex-row lg:grid-cols-[1fr,37%,1fr] sm:flex-col md:flex-row gap-3 mt-5'>
+        <div className=' grid lg:flex lg:flex-row lg:grid-cols md:grid-cols-2 sm:flex-col sm:items-center md:items-center gap-3 mt-5'>
+           
             <div className='w-fit mx-auto self-end'>
                 <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto'
                 src={cloth1}
@@ -68,7 +69,9 @@ export const Component2 = () => {
         </div>
 
         {/* for images 2  */}
-        <div className=' lg:flex md:flex-cols gap-1 mt-10 px-5'>
+
+
+        {/* <div className=' lg:flex md:flex-cols gap-1 mt-10 px-5'>
 
             <div className=' rounded-xl bg-[url("/banner1.svg")] lg:w-[820px] lg:h-[300px] md:w-auto md:h-auto mt-8 ml-12 mr-10 bg-cover bg-no-repeat bg-center flex items-center relative'>
         
@@ -105,6 +108,41 @@ export const Component2 = () => {
         </div>
     </div>
             </div>
+ */}
+
+
+    
+            <main className='sm:hidden px-[150px]  sm:px-[30px]  md:px-[30px]  flex sm:flex-col md:flex-col space-x-[50px] 
+            sm:space-x-0 md:space-x-0 md:space-y-[50px] sm:space-y-[50px]'>
+
+      <section className='w-full  mt-[20px] bg-[url("/banner1.svg")] bg-cover px-[20px] py-[40px] bg-no-repeat  h-fit'>
+       
+        <div className='w-1/2  pl-[30px]'>
+          <h1 className='w-[85%] sm:w-[90%] md:w-[95%] text-[32px] font-bold'>Thousands of free templates</h1>
+          <p className='mt-[20px] text-[rgb(126,126,126)] w-[80%] text-[18px] font-md'>
+            Free and easy way to bring your ideas to life
+          </p>
+
+          <button className='mt-[20px] bg-[rgb(46,187,119)] px-4 py-2 rounded-[12px] flex text-white'>
+            Explore More
+          </button>
+        </div>
+      </section>
+
+      <section className='w-full h-[390px] mt-[9px] bg-[url("/banner2.svg")] bg-cover bg-no-repeat  px-[20px] py-[40px] md:w-[100%]  rounded-[12px] '>
+      
+        <div className='w-1/2 pl-[30px]'>
+          <h1 className='w-[85%] text-[32px] font-bold'>Create your unique style</h1>
+          <p className='mt-[20px] text-[rgb(126,126,126)] w-[80%] text-[18px] font-md'>
+            Free and easy way to make your creative to life
+          </p>
+
+          <button className='mt-[20px] bg-[rgb(46,187,119)] px-4 py-2 rounded-[12px] flex text-white'>
+            Shop Now
+          </button>
+        </div>
+      </section>
+    </main>
 
 
 
