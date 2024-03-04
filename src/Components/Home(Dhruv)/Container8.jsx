@@ -17,12 +17,12 @@ const Container8 = () => {
       <section className='mt-[50px] mb-[100px] flex gap-[50px] small:flex-col medium:flex-col'>
         <div className='w-1/2 small:w-full medium:w-full flex space-x-[40px] small:flex-col small:space-x-0 '>
           <Image src={Acticel1} alt='' width='' height='' className='w-1/2 rounded-[12px] small:w-full medium:w-1/2 ' />
-          <div className='mt-[15px]'>
+          <div className='small:mt-[15px] medium:mt-[15px]'>
             <div className='bg-[rgb(245,245,245)] text-[rgb(46,187,119)] font-semibold text-[14px] px-3 py-1 rounded-[40px] w-fit'>
               <h1>Design Serivce</h1>
             </div>
-            <h1 className='font-bold text-[18px] mt-[10px]'>Make yourself happy with our T-shirt customer…</h1>
-            <div className='mt-[10px] flex space-x-2'>
+            <h1 className='font-bold text-[18px] small:mt-[10px] medium:mt-[10px] mt-[20px]'>Make yourself happy with our T-shirt customer…</h1>
+            <div className='small:mt-[10px] medium:mt-[10px] mt-[30px] flex space-x-2'>
               <Image src={User} alt='' width='' height='' />
               <div className='mt-2'>
                 <h1 className='text-[rgb(126,126,126)] text-[15px]'>
@@ -36,7 +36,7 @@ const Container8 = () => {
 
         <div className='w-1/2 small:w-full medium:w-full  flex space-x-[40px] small:flex-col small:space-x-0 '>
           <Image src={Acticel2} alt='' width='' height='' className='w-1/2 rounded-[12px] small:w-full medium:w-1/2' />
-          <div className='mt-[15px] '>
+          <div className='small:mt-[15px] medium:mt-[15px] '>
             <div className='flex space-x-[15px]'>
               <div className='bg-[rgb(245,245,245)] text-[rgb(46,187,119)] font-semibold text-[14px] px-3 py-1 rounded-[40px] w-fit'>
                 <h1>Print Company</h1>
@@ -46,10 +46,10 @@ const Container8 = () => {
               </div>
             </div>
 
-            <h1 className='font-bold text-[18px] mt-[10px]'>
+            <h1 className='font-bold text-[18px]  small:mt-[10px] medium:mt-[10px] mt-[20px]'>
                 Are you ready to make it awesome with us
             </h1>
-            <div className='mt-[10px] flex space-x-2'>
+            <div className='small:mt-[10px] medium:mt-[10px] mt-[30px] flex space-x-2'>
               <Image src={User} alt='' width='' height='' />
               <div className='mt-2'>
                 <h1 className='text-[rgb(126,126,126)] text-[15px]'>
