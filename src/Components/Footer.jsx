@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image'
 import Arrow from   "../../public/assets/Footer/Arrow.svg";
 import Payment from "../../public/assets/Footer/Payment.svg";
