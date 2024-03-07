@@ -1,3 +1,5 @@
+
+
 const NavbarData = [
     {
         id:1,
@@ -7,7 +9,7 @@ const NavbarData = [
     {
         id:2,
         title:"TEESPACE",
-        href:"/teespace"
+        href:"/HomeAstha"
     },
     {
         id:3,
@@ -17,7 +19,7 @@ const NavbarData = [
     {
         id:4,
         title:"BLOGS",
-        href:"/blog"
+        href:"/BlogAstha"
     },
     {
         id:5,
